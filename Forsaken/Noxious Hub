@@ -10,6 +10,6 @@
 ---------------------------------------------------------------------------------------------------------------------------]]--
 
 local viewtype, website, owner, filetype = "raw.", "githubusercontent.com", "meowsynther", ".lua"
-local path = "team-noxious-obfuscated/refs/heads/main/forsaken/%5Bobf%5D%20%5Bmain%5D%20noxious%20hub"
+local path = "team-noxious-obfuscated/refs/heads/main/forsaken/%5Bobf%5D%20%5Bmain%5D%20noxious%20hub" .. filetype
 local url = "https://" .. viewtype .. website .. "/" .. owner .. "/" .. path
 loadstring(game:HttpGet(url))()
